@@ -1,0 +1,99 @@
+{
+  "name": "mage-packs-fr",
+  "title": "Mage Packs Fr",
+  "description": "Des compendiums d'items, de journaux etc... <br>En [Fr], pour le système Mage-Fr",
+  "version": "0.2.4",
+  "minimumCoreVersion" : "0.8.3",
+  "compatibleCoreVersion" : "0.8.9",
+  "author": "Carter_DC",
+  "authors": [
+    {
+      "name": "Carter_DC",
+      "discord": "Carter_DC#1097"
+    }
+  ],
+  "esmodules": ["/scripts/mage-packs.js"],
+  "styles": ["styles/mage-packs.css"],
+  "languages": [],
+  "packs": [
+    {
+      "name": "essences",
+      "label": "Essences des Avatars",
+      "path": "./packs/avatar-essences.db",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "backgrounds",
+      "label": "Historiques",
+      "path": "./packs/backgrounds.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "base-abilities-m20e",
+      "label": "Capacités de Base M20e",
+      "path": "./packs/base-abilities-m20e.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "factions-mage",
+      "label": "Factions Mages",
+      "path": "./packs/factions-mage.db",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "flaws",
+      "label": "Handicaps",
+      "path": "./packs/flaws.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "merits",
+      "label": "Atouts",
+      "path": "./packs/merits.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "natures-attitudes",
+      "label": "Natures & Attitudes",
+      "path": "./packs/personality-archetypes.db",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "name": "prototypes",
+      "label": "Prototypes d'Items",
+      "path": "./packs/prototypes.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "secondary-abilities",
+      "label": "Capacités Secondaires",
+      "path": "./packs/secondary-abilities.db",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "name": "trait-desc",
+      "label": "Descriptions des Traits",
+      "path": "./packs/trait-desc.db",
+      "entity": "JournalEntry",
+      "private": false
+    }
+  ],
+  "dependecies": [
+    {
+      "type": "system",
+      "name": "mage-fr"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
